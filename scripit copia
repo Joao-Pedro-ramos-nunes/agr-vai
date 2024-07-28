@@ -1,0 +1,116 @@
+ const flags = {
+    ActiveDeveloper: "<img class='flag-icon' title='Desenvolvedor(a) Ativo(a)' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/activedeveloper.svg'>",
+    PremiumEarlySupporter: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/pig.svg' alt='Premium Early Supporter' title='Apoiador Inicial'>",
+    HypeSquadOnlineHouse1: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/hypebravery.svg' alt='HypeSquad Online House 1' title='Bravery'>",
+    HypeSquadOnlineHouse2: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/hypebrilliance.svg' alt='HypeSquad Online House 2' title='Brilliance'>",
+    HypeSquadOnlineHouse3: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/hypebalance.svg' alt='HypeSquad Online House 3' title='Balance'>",
+    Nitro: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/nitro.svg' alt='Nitro' title='Nitro'>",
+    BoostLevel1: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl1.svg' alt='Boost Level 1' title='Boost Nível 1'>",
+    BoostLevel2: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl2.svg' alt='Boost Level 2' title='Boost Nível 2'>",
+    BoostLevel3: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl3.svg' alt='Boost Level 3' title='Boost Nível 3'>",
+    BoostLevel4: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl4.svg' alt='Boost Level 4' title='Boost Nível 4'>",
+    BoostLevel5: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl5.svg' alt='Boost Level 5' title='Boost Nível 5'>",
+    BoostLevel6: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl6.svg' alt='Boost Level 6' title='Boost Nível 6'>",
+    BoostLevel7: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl7.svg' alt='Boost Level 7' title='Boost Nível 7'>",
+    BoostLevel8: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl8.svg' alt='Boost Level 8' title='Boost Nível 8'>",
+    BoostLevel9: "<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/lvl9.svg' alt='Boost Level 9' title='Boost Nível 9'>",
+    LegacyUsername: `<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/pomelo.svg' alt='Legacy Username Badge' title='Originalmente ${userData.user.legacyUsername}'>`,
+    BotCommands: `<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/botcommands.svg' alt='Bot Commands Badge' title='Compatível com Comandos'>`,
+    automod: `<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/automod.svg' alt='AutoMod Badge' title='Usa AutoMod'>`,
+  }
+ 
+
+    : `<img class='flag-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/badges/invis.png' alt=' '>`;
+
+
+  const connections = {
+    paypal: {
+
+      icon: "<img class='conn-icon' src='https://discord.com/assets/c44f32fe60d6657fda9f.svg'>",
+      off: true
+    },
+    domain: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/domain.svg'>",
+      link: 'https://',
+    },
+    steam: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/steam.svg'>",
+      link: 'https://steamcommunity.com/profiles/',
+    },
+    epicgames: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/epicgames.svg'>",
+      off: true
+    },
+    spotify: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/spotify.svg'>",
+      link: 'https://open.spotify.com/user/',
+    },
+    battlenet: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/battlenet.svg'>",
+      off: true
+    },
+    crunchyroll: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/crunchyroll.svg'>",
+      off: true
+    },
+    ebay: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/ebay.svg'>",
+      off: true
+    },
+    facebook: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/facebook.svg'>",
+      link: 'https://www.facebook.com/@',
+    },
+    github: {
+      icon: "<img class='conn-icon'src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/github.svg'>",
+      link: 'https://github.com/',
+      user: true
+    },
+    leagueoflegends: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/leagueoflegends.svg'>",
+      off: true
+    },
+    playstation: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/playstation.svg'>",
+      off: true
+    },
+    reddit: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/reddit.svg'>",
+      link: 'https://www.reddit.com/user/',
+      user: true
+    },
+    riotgames: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/riotgames.svg'>",
+      off: true
+    },
+    tiktok: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/tiktok.svg'>",
+      link: 'https://www.tiktok.com/@',
+      user: true
+    },
+    twitch: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/twitch.svg'>",
+      link: 'https://www.twitch.tv/',
+      user: true
+    },
+    twitter: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/twitter.svg'>",
+      link: 'https://twitter.com/',
+      user: true
+    },
+    xbox: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/xbox.svg'>",
+      off: true
+    },
+    youtube: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/youtube.svg'>",
+      link: 'https://www.youtube.com/channel/',
+    },
+    instagram: {
+      icon: "<img class='conn-icon' src='https://raw.githubusercontent.com/rhxsp/rhxDiscordAssets/main/connections/instagram.svg'>",
+      link: 'https://www.instagram.com/',
+      user: true
+    },
+  };
+
+ 
